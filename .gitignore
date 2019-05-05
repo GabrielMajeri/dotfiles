@@ -1,0 +1,63 @@
+# Indicates which files should be ignored by Git
+
+# Ignore all non-config / non-hidden files
+*
+!.*
+!.*/**
+
+# Temporary caches created by programs
+/.cache/
+
+# Store for debug symbols
+/.debug/
+
+# gpg database
+/.gnupg/
+
+# Locally installed app data
+/.local/share/
+
+# Security certificates
+/.pki/
+
+# Symbollic links to Steam install
+/.steam*
+
+# GTK color and font settings
+/.gtkrc-*
+
+# KDE color settings
+/.kde4/
+
+# KDE face icon
+/.face*
+
+# Rust install
+/.cargo/
+/.rustup/
+
+# VS Code extensions
+/.vscode/
+
+# Files left behind by the Android SDK and Android Studio
+/.AndroidStudio*/
+/.android/
+
+# Gradle cache files
+/.gradle/
+
+# Anthy - Japanese input
+/.anthy
+
+# Java app preferences
+/.java/
+
+# History files
+/.*hst*
+/.*hist*
+
+# Authentication tokens
+/.*auth*
+
+# Cookie for PulseAudio
+/.pulse-cookie
