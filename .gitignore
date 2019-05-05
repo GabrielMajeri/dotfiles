@@ -17,6 +17,9 @@
 # Locally installed app data
 /.local/share/
 
+# NVIDIA driver cache
+/.nv
+
 # Security certificates
 /.pki/
 
