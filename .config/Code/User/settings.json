@@ -1,0 +1,25 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.smoothScrolling": true,
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "'Fira Code Retina'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "files.hotExit": "off",
+    "files.exclude": {
+        "**/.DS_Store": false,
+        "**/.git": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/CVS": false
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "breadcrumbs.enabled": true,
+    "window.titleBarStyle": "custom",
+    "window.restoreWindows": "none",
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Default Light+"
+}
