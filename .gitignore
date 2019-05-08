@@ -14,17 +14,26 @@
 # gpg database
 /.gnupg/
 
+# Jupyter Notebooks settings
+/.jupyter/
+
 # Locally installed app data
 /.local/share/
 
 # NVIDIA driver cache
-/.nv
+/.nv/
+/.nvidia-settings-rc
 
 # Security certificates
 /.pki/
 
-# Symbollic links to Steam install
+# Symbolic links to Steam install
 /.steam*
+
+# Default Wine prefix
+/.wine/
+
+## Desktop environment files ##
 
 # GTK color and font settings
 /.gtkrc-*
@@ -34,6 +43,8 @@
 
 # KDE face icon
 /.face*
+
+## Programming-related tools ##
 
 # Rust install
 /.cargo/
