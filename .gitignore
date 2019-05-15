@@ -5,17 +5,29 @@
 !.*
 !.*/**
 
+# Audacity prefs
+/.audacity-data/
+
 # Temporary caches created by programs
 /.cache/
 
 # Store for debug symbols
 /.debug/
 
+# Docker temporary data
+/.docker/
+
 # gpg database
 /.gnupg/
 
+# Keras cache and config directory
+/.keras/
+
 # Jupyter Notebooks settings
 /.jupyter/
+
+# Locally installed libraries
+/.local/lib/
 
 # Locally installed app data
 /.local/share/
@@ -26,6 +38,9 @@
 
 # Security certificates
 /.pki/
+
+# Statistics recorded by the Python linter
+/.pylint.d/
 
 # Symbolic links to Steam install
 /.steam*
