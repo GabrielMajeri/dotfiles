@@ -20,8 +20,14 @@
 # gpg database
 /.gnupg/
 
+# HP printers config dir
+/.hplip/
+
 # Keras cache and config directory
 /.keras/
+
+# Linux games from Klei Entertainment
+/.klei/
 
 # Jupyter Notebooks settings
 /.jupyter/
@@ -42,8 +48,14 @@
 # Statistics recorded by the Python linter
 /.pylint.d/
 
+# Scala Build Tool
+/.sbt/
+
 # Symbolic links to Steam install
 /.steam*
+
+# Temporary storage for the VS Code C++ plugin data
+/.vscode-cpptools/
 
 # Default Wine prefix
 /.wine/
