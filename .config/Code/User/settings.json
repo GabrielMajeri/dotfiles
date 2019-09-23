@@ -21,4 +21,6 @@
     "window.titleBarStyle": "custom",
     "window.restoreWindows": "none",
     "window.zoomLevel": 0,
+    "git.autofetch": true,
+    "git.confirmSync": false
 }
