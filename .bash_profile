@@ -1,7 +1,11 @@
 # Set up environment variables
-export GTK_IM_MODULE='fcitx'
-export QT_IM_MODULE='fcitx'
-export XMODIFIERS='@im=fcitx'
+
+# Enable fcitx for multi-language keyboard input
+if [ -x "$(command -v fcitx)" ]; then
+    export GTK_IM_MODULE='fcitx'
+    export QT_IM_MODULE='fcitx'
+    export XMODIFIERS='@im=fcitx'
+fi
 
 # Add Rust to PATH
 export PATH="$HOME/.cargo/bin:$PATH"
