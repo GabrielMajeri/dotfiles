@@ -54,6 +54,9 @@
 /.nv/
 /.nvidia-settings-rc
 
+# PhpStorm settings are synchronized by the IDE
+/.PhpStorm*/
+
 # Security certificates
 /.pki/
 
@@ -122,3 +125,6 @@
 
 # Cookie for PulseAudio
 /.pulse-cookie
+
+# Errors reported by X11
+/.xsession-errors*
