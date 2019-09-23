@@ -20,6 +20,8 @@ export PATH="$PATH:$GOPATH/bin"
 # Load all settings from .bashrc
 source ~/.bashrc
 
-if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+DISPLAY_MANAGER_ENABLED="$(systemctl is-enabled display-manager.service --quiet 2&>/dev/null)"
+
+if [[ ! $DISPLAY_MANAGER_ENABLED && ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
     exec startx
 fi
