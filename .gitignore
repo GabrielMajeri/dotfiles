@@ -23,6 +23,9 @@
 # HP printers config dir
 /.hplip/
 
+# IPython config and temporary files
+/.ipython/
+
 # Keras cache and config directory
 /.keras/
 
