@@ -1,0 +1,8 @@
+# Files compiled or downloaded by Stack
+*
+
+# This file
+!/.gitignore
+
+# Config file
+!/config.yaml
