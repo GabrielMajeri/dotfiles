@@ -11,11 +11,17 @@
 # Temporary caches created by programs
 /.cache/
 
+# Where the Git bare repo exists for dot files
+/.cfg/
+
 # Store for debug symbols
 /.debug/
 
 # Docker temporary data
 /.docker/
+
+# GHC temporary files
+/.ghc/
 
 # gpg database
 /.gnupg/
@@ -41,6 +47,9 @@
 # Locally installed app data
 /.local/share/
 
+# Best game ever
+/.minecraft/
+
 # NVIDIA driver cache
 /.nv/
 /.nvidia-settings-rc
@@ -57,11 +66,19 @@
 # Symbolic links to Steam install
 /.steam*
 
+# SSH private config files
+/.ssh/
+
 # Temporary storage for the VS Code C++ plugin data
 /.vscode-cpptools/
 
+# WebStorm settings
+# These are synchronised by the IDE
+/.WebStorm*/
+
 # Default Wine prefix
 /.wine/
+
 
 ## Desktop environment files ##
 
