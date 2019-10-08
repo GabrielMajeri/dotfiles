@@ -20,6 +20,9 @@
 # Docker temporary data
 /.docker/
 
+# Locally installed fonts
+/.fonts/
+
 # GHC temporary files
 /.ghc/
 
@@ -56,6 +59,9 @@
 
 # PhpStorm settings are synchronized by the IDE
 /.PhpStorm*/
+
+# PyCharm stores settings here too
+/.PyCharm*/
 
 # Security certificates
 /.pki/
