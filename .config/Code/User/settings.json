@@ -22,5 +22,6 @@
     "window.restoreWindows": "none",
     "window.zoomLevel": 0,
     "git.autofetch": true,
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "extensions.ignoreRecommendations": true
 }
