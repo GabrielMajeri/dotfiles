@@ -24,4 +24,11 @@
     "git.autofetch": true,
     "git.confirmSync": false,
     "extensions.ignoreRecommendations": true
+    "C_Cpp.updateChannel": "Insiders",
+    "http.proxySupport": "off",
+    "terminal.integrated.rendererType": "experimentalWebgl",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.sideBar.location": "right"
 }
