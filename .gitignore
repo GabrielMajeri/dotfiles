@@ -5,6 +5,9 @@
 !.*
 !.*/**
 
+# Arduino packages
+/.arduino*/
+
 # Audacity prefs
 /.audacity-data/
 
@@ -53,6 +56,9 @@
 # Best game ever
 /.minecraft/
 
+# Firefox user data
+/.mozilla/
+
 # NVIDIA driver cache
 /.nv/
 /.nvidia-settings-rc
@@ -68,6 +74,9 @@
 
 # Statistics recorded by the Python linter
 /.pylint.d/
+
+# R Studio settings
+/.rstudio-desktop/
 
 # Scala Build Tool
 /.sbt/
