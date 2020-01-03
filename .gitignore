@@ -23,6 +23,9 @@
 # Docker temporary data
 /.docker/
 
+# Emscripten SDK cached files
+/.emscripten_cache
+
 # Locally installed fonts
 /.fonts/
 
@@ -86,6 +89,9 @@
 
 # SSH private config files
 /.ssh/
+
+# Created by sudo
+/.sudo_as_admin_successful
 
 # Temporary storage for the VS Code C++ plugin data
 /.vscode-cpptools/
