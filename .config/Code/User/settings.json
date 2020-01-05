@@ -3,7 +3,7 @@
     "workbench.iconTheme": "vscode-icons",
     "editor.smoothScrolling": true,
     "editor.wordWrap": "on",
-    "editor.fontFamily": "'Fira Code Retina'",
+    "editor.fontFamily": "Fira Code Retina",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
     "files.hotExit": "off",
@@ -23,7 +23,7 @@
     "window.zoomLevel": 0,
     "git.autofetch": true,
     "git.confirmSync": false,
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
     "C_Cpp.updateChannel": "Insiders",
     "http.proxySupport": "off",
     "terminal.integrated.rendererType": "experimentalWebgl",
