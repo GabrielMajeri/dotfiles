@@ -21,6 +21,7 @@
     "window.titleBarStyle": "custom",
     "window.restoreWindows": "none",
     "window.zoomLevel": 0,
+    "terminal.integrated.inheritEnv": false,
     "git.autofetch": true,
     "git.confirmSync": false,
     "extensions.ignoreRecommendations": true,
