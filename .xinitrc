@@ -9,4 +9,4 @@ done
 unset f
 
 # Launch KDE
-exec startkde
+exec startplasma-x11
