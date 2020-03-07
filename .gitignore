@@ -38,6 +38,9 @@
 # HP printers config dir
 /.hplip/
 
+# IntelliJ Idea files
+/.Idea*/
+
 # IPython config and temporary files
 /.ipython/
 
@@ -57,7 +60,7 @@
 /.local/share/
 
 # Best game ever
-/.minecraft/
+/.minecraft
 
 # Firefox user data
 /.mozilla/
@@ -65,6 +68,9 @@
 # NVIDIA driver cache
 /.nv/
 /.nvidia-settings-rc
+
+# OpenJFX cache
+/.openjfx/
 
 # PhpStorm settings are synchronized by the IDE
 /.PhpStorm*/
@@ -83,6 +89,9 @@
 
 # Scala Build Tool
 /.sbt/
+
+# Oracle SQL Developer settings
+/.sqldeveloper/
 
 # Symbolic links to Steam install
 /.steam*
