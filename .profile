@@ -1,8 +1,8 @@
 # Ensure GTK applications use the KDE file picker
 export GTK_USE_PORTAL=1
 
-# Use Firefox as the default browser
-export BROWSER=firefox-developer-edition
+# Use Chromium as the default browser
+export BROWSER=chromium
 
 # Add Rust to PATH
 export PATH="$HOME/.cargo/bin:$PATH"
