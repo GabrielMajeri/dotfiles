@@ -15,6 +15,12 @@ shopt -s histappend
 shopt -s checkwinsize
 
 
+# Include local command completions
+for i in ~/.local/share/bash-completion/completions/*; do
+    source "$i"
+done
+
+
 # Set up a colorized prompt
 reset="\[$(tput sgr0)\]"
 dir_color="\[\033[38;5;10m\]"
