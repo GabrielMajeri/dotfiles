@@ -16,9 +16,11 @@ shopt -s checkwinsize
 
 
 # Include local command completions
-for i in ~/.local/share/bash-completion/completions/*; do
-    source "$i"
-done
+if [[ -f $HOME/.local/share/bash-completion ]]; then
+    for i in $HOME/.local/share/bash-completion/completions/*; do
+        source "$i"
+    done
+fi
 
 
 # Set up a colorized prompt
