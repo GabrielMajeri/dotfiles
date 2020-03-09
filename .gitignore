@@ -29,6 +29,9 @@
 # Locally installed fonts
 /.fonts/
 
+# FreeCAD settings
+/.FreeCAD/
+
 # GHC temporary files
 /.ghc/
 
@@ -40,6 +43,7 @@
 
 # IntelliJ Idea files
 /.Idea*/
+/.IntelliJIdea*/
 
 # IPython config and temporary files
 /.ipython/
@@ -74,6 +78,9 @@
 
 # PhpStorm settings are synchronized by the IDE
 /.PhpStorm*/
+
+# Settings for Prusa 3D slicer
+/.PrusaSlicer/
 
 # PyCharm stores settings here too
 /.PyCharm*/
