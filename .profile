@@ -21,5 +21,5 @@ fi
 
 if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
     #XDG_SESSION_TYPE=wayland dbus-run-session startplasma-wayland
-    startx
+    startx > "$HOME/.local/share/xorg/stdout" 2> "$HOME/.local/share/xorg/stderr"
 fi
