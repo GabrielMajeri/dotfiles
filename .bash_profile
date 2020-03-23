@@ -13,11 +13,8 @@ export GRADLE_USER_HOME="$HOME/.cache/gradle"
 # Move NVIDIA shader cache to the cache dir
 export __GL_SHADER_DISK_CACHE_PATH="$HOME/.cache/nvidia"
 
-# If running bash
-if [ -n "$BASH_VERSION" ]; then
-    # Load all settings from .bashrc
-    source ~/.bashrc
-fi
+# Load all settings from .bashrc
+source ~/.bashrc
 
 if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
     #XDG_SESSION_TYPE=wayland dbus-run-session startplasma-wayland
