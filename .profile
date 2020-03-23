@@ -1,6 +1,3 @@
-# Ensure GTK applications use the KDE file picker
-export GTK_USE_PORTAL=1
-
 # Use Chromium as the default browser
 export BROWSER=chromium
 
