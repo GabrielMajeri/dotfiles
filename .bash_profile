@@ -16,7 +16,7 @@ export __GL_SHADER_DISK_CACHE_PATH="$HOME/.cache/nvidia"
 # Load all settings from .bashrc
 source ~/.bashrc
 
-if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
     #XDG_SESSION_TYPE=wayland dbus-run-session startplasma-wayland
     startx > "$HOME/.local/share/xorg/stdout" 2> "$HOME/.local/share/xorg/stderr"
 fi
