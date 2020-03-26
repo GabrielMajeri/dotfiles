@@ -1,6 +1,3 @@
-# Use Chromium as the default browser
-export BROWSER=chromium
-
 # Add Rust to PATH
 export PATH="$HOME/.cargo/bin:$PATH"
 
