@@ -21,15 +21,16 @@
     "window.titleBarStyle": "custom",
     "window.restoreWindows": "none",
     "window.zoomLevel": 0,
-    "terminal.integrated.inheritEnv": false,
-    "terminal.integrated.rendererType": "auto",
     "git.autofetch": true,
     "git.confirmSync": false,
     "extensions.ignoreRecommendations": true,
     "C_Cpp.updateChannel": "Insiders",
     "http.proxySupport": "off",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.sideBar.location": "right"
+    "workbench.sideBar.location": "right",
 }
