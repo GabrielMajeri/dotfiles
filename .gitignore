@@ -8,6 +8,9 @@
 # Arduino packages
 /.arduino*/
 
+# ASP.NET runtime
+/.aspnet/
+
 # Audacity prefs
 /.audacity-data/
 
@@ -23,8 +26,14 @@
 # Docker temporary data
 /.docker/
 
+# .NET runtime files
+/.dotnet/
+
 # Emscripten SDK cached files
 /.emscripten_cache
+
+# Folding@Home client settings
+/.FAHClient/
 
 # Locally installed fonts
 /.fonts/
@@ -66,12 +75,18 @@
 # Best game ever
 /.minecraft
 
+# Mono runtime data
+/.mono/
+
 # Firefox user data
 /.mozilla/
 
 # NVIDIA driver cache
 /.nv/
 /.nvidia-settings-rc
+
+# NuGet package cache directory
+/.nuget/
 
 # OpenJFX cache
 /.openjfx/
@@ -108,6 +123,9 @@
 
 # Created by sudo
 /.sudo_as_admin_successful
+
+# .NET templating engine cache
+/.templateengine
 
 # Temporary storage for the VS Code C++ plugin data
 /.vscode-cpptools/

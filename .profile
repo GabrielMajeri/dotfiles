@@ -1,6 +1,9 @@
 # Add Rust to PATH
 export PATH="$HOME/.cargo/bin:$PATH"
 
+# Add .NET Core SDK tools to PATH
+export PATH="$HOME/.dotnet/tools:$PATH"
+
 # Move Gradle cache to the cache dir
 export GRADLE_USER_HOME="$HOME/.cache/gradle"
 
