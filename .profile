@@ -1,3 +1,6 @@
+# Set Android SDK home directory
+export ANDROID_HOME="$HOME/.android/sdk"
+
 # Add Rust to PATH
 export PATH="$HOME/.cargo/bin:$PATH"
 
