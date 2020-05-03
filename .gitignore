@@ -8,8 +8,8 @@
 # Arduino packages
 /.arduino*/
 
-# ASP.NET runtime
-/.aspnet/
+# ASP.NET config files
+/.aspnet
 
 # Audacity prefs
 /.audacity-data/
@@ -26,8 +26,8 @@
 # Docker temporary data
 /.docker/
 
-# .NET runtime files
-/.dotnet/
+# .NET config files
+/.dotnet
 
 # Emscripten SDK cached files
 /.emscripten_cache
@@ -41,6 +41,10 @@
 # FreeCAD settings
 /.FreeCAD/
 
+# Flutter-related settings
+/.flutter
+/.flutter_tool_state
+
 # GHC temporary files
 /.ghc/
 
@@ -49,6 +53,9 @@
 
 # HP printers config dir
 /.hplip/
+
+# Hasura database engine
+/.hasura/
 
 # IntelliJ Idea files
 /.Idea*/
@@ -80,6 +87,9 @@
 
 # Firefox user data
 /.mozilla/
+
+# Nuget package cache
+/.nuget/
 
 # NVIDIA driver cache
 /.nv/
