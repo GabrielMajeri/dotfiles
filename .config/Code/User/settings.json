@@ -25,12 +25,16 @@
     "git.confirmSync": false,
     "extensions.ignoreRecommendations": true,
     "C_Cpp.updateChannel": "Insiders",
-    "http.proxySupport": "off",
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "workbench.sideBar.location": "right",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "mesonbuild.configureOnOpen": false,
 }
