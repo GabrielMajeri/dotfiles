@@ -64,6 +64,10 @@
 # IPython config and temporary files
 /.ipython/
 
+# The Kaggle settings file contains the auth key,
+# which should not be public.
+/.kaggle/kaggle.json
+
 # Keras cache and config directory
 /.keras/
 
@@ -79,6 +83,9 @@
 # Locally installed app data
 /.local/share/
 
+# Debugger history
+/.lldb/lldb*widehistory
+
 # Best game ever
 /.minecraft
 
@@ -87,6 +94,9 @@
 
 # Firefox user data
 /.mozilla/
+
+# Heroku machine passwords, should not be public
+/.netrc
 
 # Nuget package cache
 /.nuget/
@@ -136,6 +146,9 @@
 
 # .NET templating engine cache
 /.templateengine
+
+# TeX Live fonts
+/.texlive/texmf-var/fonts/
 
 # Temporary storage for the VS Code C++ plugin data
 /.vscode-cpptools/
