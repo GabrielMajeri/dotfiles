@@ -10,3 +10,13 @@ templates:
     author-email: gabriel.majeri6@gmail.com
     copyright: MIT
     github-username: GabrielMajeri
+
+install-ghc: false
+
+system-ghc: true
+
+compiler-check: newer-minor
+skip-ghc-check: true
+
+ghc-options:
+  "$everything": -dynamic
