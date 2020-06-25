@@ -20,6 +20,9 @@
 # Where the Git bare repo exists for dot files
 /.cfg/
 
+# Dart analysis cache
+/.dartServer/
+
 # Store for debug symbols
 /.debug/
 
@@ -116,6 +119,9 @@
 
 # Settings for Prusa 3D slicer
 /.PrusaSlicer/
+
+# Dart pub package cache
+/.pub-cache/
 
 # PyCharm stores settings here too
 /.PyCharm*/
