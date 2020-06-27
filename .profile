@@ -1,6 +1,9 @@
 # Set Android SDK home directory
 export ANDROID_HOME="$HOME/.android/sdk"
 
+# Use Chromium instead of Google Chrome
+export CHROME_EXECUTABLE="chromium"
+
 # Add Rust to PATH
 export PATH="$HOME/.cargo/bin:$PATH"
 
