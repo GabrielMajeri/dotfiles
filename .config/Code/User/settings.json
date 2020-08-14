@@ -17,7 +17,6 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "extensions.ignoreRecommendations": true,
-  "C_Cpp.updateChannel": "Insiders",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -32,5 +31,6 @@
   },
   "workbench.sideBar.location": "right",
   "latex-workshop.view.pdf.viewer": "tab",
-  "mesonbuild.configureOnOpen": true
+  "mesonbuild.configureOnOpen": true,
+  "omnisharp.path": "latest"
 }
